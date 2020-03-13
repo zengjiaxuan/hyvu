@@ -6,10 +6,12 @@ let vm = new Vue({
 			msg: 'hello',
 			hh: {
 				a: 1
-			}
+			},
+			arr: [1, 2, 3, {
+				b: 2
+			}]
 		}
 	},
 	computed: {},
 	watch: {}
 })
-console.log(vm)
